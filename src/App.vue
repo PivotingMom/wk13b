@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <DataLayout />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DataLayout from './components/DataLayout.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DataLayout
   }
 }
 </script>
